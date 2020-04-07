@@ -1,5 +1,5 @@
 # leonlacerda.github.io
 
-Undenarii - Versão virtual
+Undenarii
 
-Repositório da enciclopédia virtual sobre Undenarii.
+Repositório da Gazeta de Undenarii - versão virtual.
