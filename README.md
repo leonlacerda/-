@@ -1,3 +1,3 @@
 # leonlacerda.github.io
 
-Repositório da Gazeta de Undenarii - versão virtual.
+Repositório do portfólio de Leon Lacerda.
