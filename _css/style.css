@@ -4,13 +4,20 @@
     padding: 0;
 }
 
+body {
+    background-image: url('../_img/repeated-square-dark.png');
+    background-repeat: repeat;
+}
+
 h1 {
     font-family: 'Niconne', cursive;
+    color: paleturquoise;
     text-align: center;
 }
 
 h2, h3 {
     font-family: 'Quicksand', sans-serif;
+    color: turquoise;
     text-align: center;
 }
 
@@ -18,6 +25,8 @@ nav {
     width: 80vw;
     margin: 1em auto;
     padding: 2em;
-    background-color: wheat;
+    background: linear-gradient(to right, rgba(133, 133, 133, 0.5) , rgba(0, 0, 0,.5));
     font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+    text-align: center;
 }
