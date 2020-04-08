@@ -50,3 +50,9 @@ nav {
 .link-menu a:hover {
     background-color: rgba(133, 133, 133, 0.4);
 }
+
+footer {
+    height: 5vw;
+    width: 100vw;
+    background-color: black;
+}
