@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+h1, h2, h3, nav {
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+}
+
+nav {
+    width: 80vw;
+    margin: 1em auto;
+    padding: 2em;
+    background-color: wheat;
+}
