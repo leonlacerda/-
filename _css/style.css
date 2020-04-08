@@ -47,6 +47,6 @@ nav {
     margin: auto;
 }
 
-.link-menu:hover {
+.link-menu a:hover {
     background-color: rgba(133, 133, 133, 0.4);
 }
