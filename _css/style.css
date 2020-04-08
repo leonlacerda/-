@@ -9,24 +9,44 @@ body {
     background-repeat: repeat;
 }
 
+header {
+    width: 100vw;
+    margin: auto;
+    padding: 2em;
+    background: linear-gradient(to left, rgba(133, 133, 133, 0.1), rgba(0, 0, 0,0), rgba(133, 133, 133, 0.1));
+    text-align: center;
+}
+
 h1 {
     font-family: 'Niconne', cursive;
     color: paleturquoise;
     text-align: center;
+    font-size: 40pt;
 }
 
 h2, h3 {
     font-family: 'Quicksand', sans-serif;
-    color: turquoise;
+    color: white;
     text-align: center;
 }
 
 nav {
-    width: 80vw;
-    margin: 1em auto;
-    padding: 2em;
-    background: linear-gradient(to right, rgba(133, 133, 133, 0.5) , rgba(0, 0, 0,.5));
+    width: 100vw;
+    padding: 2em;   
     font-family: 'Open Sans', sans-serif;
     color: #ffffff;
     text-align: center;
+}
+
+.link-menu a {
+    width: 40vw;
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+    padding-top: 5px;
+    margin: auto;
+}
+
+.link-menu:hover {
+    background-color: rgba(133, 133, 133, 0.4);
 }
