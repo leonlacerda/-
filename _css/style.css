@@ -33,15 +33,16 @@ h2, h3 {
 }
 
 nav {
-    width: 100vw;
-    padding: 2em;
+    width: 80vw;
+    margin: auto;
+    padding-top: 2em;
 }
 
 .link-menu a {
-    width: 30vw;
-    height: 30pt;
-    line-height: 30pt;
-    display: block;
+    width: 20vw;
+    height: 20vw;
+    line-height: 20vw;
+    float: left;
     color: #dcdcdc;
     font-family: 'Open Sans', sans-serif;
     font-size: 14pt;
@@ -53,6 +54,11 @@ nav {
 
 .link-menu a:hover {
     background-color: rgb(66, 66, 66);
+}
+
+.clear {
+    clear: both;
+    height: 2em;
 }
 
 footer {
