@@ -14,7 +14,7 @@ header {
     width: 100vw;
     margin: auto;
     padding: 2em;
-    background: linear-gradient(to left, rgba(133, 133, 133, 0.1), rgba(0, 0, 0,0), rgba(133, 133, 133, 0.1));
+    background: linear-gradient(to left, rgba(210, 210, 210, 0.1), rgba(0, 0, 0,0), rgba(210, 210, 210, 0.1));
     text-align: center;
 }
 
@@ -27,7 +27,7 @@ h1 {
 
 h2, h3 {
     font-family: 'Quicksand', sans-serif;
-    color: white;
+    color: #dcdcdc;
     text-align: center;
     font-size: 14pt;
 }
@@ -39,33 +39,37 @@ nav {
 
 .link-menu a {
     width: 30vw;
-    height: 20pt;
+    height: 30pt;
+    line-height: 30pt;
     display: block;
-    color: #ffffff;
+    color: #dcdcdc;
     font-family: 'Open Sans', sans-serif;
+    font-size: 14pt;
     text-align: center;
     text-decoration: none;
-    padding: .25em 0 .25em 0;
     margin: auto;
     border-radius: 25px;
 }
 
 .link-menu a:hover {
-    background-color: rgba(133, 133, 133, 0.4);
+    background-color: rgb(66, 66, 66);
 }
 
 footer {
     width: 100vw;
     border-top: 1px ridge rgba(0, 0, 0, .4);
-    padding: 4vw 0 4vw 0;
-    background-color: black;
-    color: black;
+    padding: 3vw 0 3vw 0;
+    background-color: rgb(33, 33, 33);
     text-align: center;
 }
 
 .credito {
-    background-color: white;
     margin: auto;
+    line-height: 20pt;
+    height: 20pt;
     width: 30vw;
     border-radius: 25px;
+    font-family: 'Open Sans', sans-serif;
+    color: #424242;
+    background-color: #dcdcdc;
 }
