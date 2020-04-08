@@ -4,7 +4,12 @@
     padding: 0;
 }
 
-h1, h2, h3, nav {
+h1 {
+    font-family: 'Niconne', cursive;
+    text-align: center;
+}
+
+h2, h3 {
     font-family: 'Quicksand', sans-serif;
     text-align: center;
 }
@@ -14,4 +19,5 @@ nav {
     margin: 1em auto;
     padding: 2em;
     background-color: wheat;
+    font-family: 'Open Sans', sans-serif;
 }
