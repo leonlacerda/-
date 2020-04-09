@@ -22,10 +22,10 @@ header {
 article {
     width: 80vw;
     margin: auto;
-    padding: 1em 0 1em 0;
 }
 
-article p {
+p {
+    padding: 1em 0 1em 0;
     color: #dcdcdc;
     text-indent: 2em;
     text-align: justify;
@@ -37,7 +37,7 @@ h1 {
     font-family: 'Niconne', cursive;
     color: paleturquoise;
     text-align: center;
-    font-size: calc(16pt + 3vw);
+    font-size: calc(18pt + 2vw);
     clear: both;
 }
 
@@ -73,7 +73,7 @@ nav {
 .link-menu a {
     color: #dcdcdc;
     font-family: 'Open Sans', sans-serif;
-    font-size: calc(4pt + 1vw);
+    font-size: calc(6pt + 0.75vw);
     text-decoration: none;
     border-radius: 25px;
 }
