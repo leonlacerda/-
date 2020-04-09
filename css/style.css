@@ -17,25 +17,27 @@ header {
     padding: 2em 0 2em 0;
     background: linear-gradient(to left, rgba(210, 210, 210, 0.1), rgba(0, 0, 0,0), rgba(210, 210, 210, 0.1));
     text-align: center;
+    background-image: url('../img/bright-business.jpg');
+    background-attachment: fixed;
+    background-position-x: center;
 }
 
 article {
-    width: 80vw;
+    width: 100vw;
     margin: auto;
     padding: 1em 0 1em 0;
-}
+    background-image: url('../img/repeated-square.png');
+    background-repeat: repeat;
+    }
 
 p {
-    color: #dcdcdc;
+    width: 80vw;
+    color: #424242;
     font-family: 'Open Sans', sans-serif;
     text-indent: 2em;
     text-align: justify;
-    margin-top: 1em;
+    margin: auto;
     font-size: calc(8pt + 1vw);
-}
-
-#linha {
-
 }
 
 @-webkit-keyframes h1 {
@@ -51,7 +53,6 @@ h1 {
     font-family: 'Comic Neue', cursive;
     text-align: center;
     font-size: calc(18pt + 2vw);
-    clear: both;
     // Glow
     position: relative;
     color: white; //#640064
