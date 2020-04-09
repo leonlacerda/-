@@ -22,10 +22,10 @@ header {
 article {
     width: 80vw;
     margin: auto;
+    padding: 1em 0 1em 0;
 }
 
 p {
-    padding: 1em 0 1em 0;
     color: #dcdcdc;
     text-indent: 2em;
     text-align: justify;
