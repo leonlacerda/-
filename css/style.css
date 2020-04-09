@@ -27,18 +27,39 @@ article {
 
 p {
     color: #dcdcdc;
+    font-family: 'Open Sans', sans-serif;
     text-indent: 2em;
     text-align: justify;
     margin-top: 1em;
     font-size: calc(8pt + 1vw);
 }
 
+#linha {
+
+}
+
+@-webkit-keyframes h1 {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+  }
+
 h1 {
-    font-family: 'Niconne', cursive;
-    color: paleturquoise;
+    font-family: 'Comic Neue', cursive;
     text-align: center;
     font-size: calc(18pt + 2vw);
     clear: both;
+    // Glow
+    position: relative;
+    color: white; //#640064
+    font-size: calc(18pt + 1vw);
+    z-index: -1;
+    -webkit-animation: h1 1s ease-in-out infinite alternate;
+    -moz-animation: h1 1s ease-in-out infinite alternate;
+    animation: h1 1s ease-in-out infinite alternate;
 }
 
 h2 {
@@ -61,24 +82,19 @@ nav {
     border-radius: 25px;
 }
 
-.link-menu {
+.link-menu a {
     width: 20vw;
     height: 20vw;
     float: left;
-    border-radius: 25px;
     text-align: center;
     line-height: 20vw;
-}
-
-.link-menu a {
     color: #dcdcdc;
     font-family: 'Open Sans', sans-serif;
     font-size: calc(6pt + 0.75vw);
     text-decoration: none;
-    border-radius: 25px;
 }
 
-.link-menu:hover {
+.link-menu a:hover {
     background-color: rgba(66, 66, 66,.2);
 }
 
