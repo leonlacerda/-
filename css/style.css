@@ -72,7 +72,7 @@ nav {
 .link-menu a {
     color: #dcdcdc;
     font-family: 'Open Sans', sans-serif;
-    font-size: calc(8pt + 0.1vw);
+    font-size: calc(4pt + 1vw);
     text-decoration: none;
     border-radius: 25px;
 }
