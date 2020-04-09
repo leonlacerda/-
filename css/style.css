@@ -98,7 +98,7 @@ footer {
     width: 80vw;
     border-radius: 25px;
     font-family: 'Open Sans', sans-serif;
-    font-size: calc(8pt + 0.5vw);
+    font-size: calc(4pt + 1vw);
     color: #424242;
     background-color: #dcdcdc;
 }
