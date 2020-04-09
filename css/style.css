@@ -19,6 +19,19 @@ header {
     text-align: center;
 }
 
+article {
+    width: 80vw;
+    margin: auto;
+    padding: 1em 0 1em 0;
+}
+
+article p {
+    color: #dcdcdc;
+    text-indent: 1.5em;
+    text-size-adjust: 12pt;
+    text-align: justify;
+    margin-top: 1em;
+}
 
 h1 {
     font-family: 'Niconne', cursive;
