@@ -8,7 +8,7 @@
 body {
     background-image: url('../img/repeated-square-dark.png');
     background-repeat: repeat;
-    overflow: scroll;
+    overflow: visible;
 }
 
 header {
