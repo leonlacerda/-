@@ -8,7 +8,7 @@
 body {
     background-image: url('../img/repeated-square-dark.png');
     background-repeat: repeat;
-    overflow: visible;
+    overflow: auto;
 }
 
 header {
@@ -29,7 +29,6 @@ article {
     padding: 1em 0 1em 0;
     background-image: url('../img/repeated-square.png');
     background-repeat: repeat;
-    background-blend-mode: darken;
     }
 
 article p {
