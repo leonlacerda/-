@@ -18,6 +18,7 @@ header {
     background: linear-gradient(to left, rgba(210, 210, 210, 0.1), rgba(0, 0, 0,0), rgba(210, 210, 210, 0.1));
     background-image: url('../img/bright-business.jpg');
     background-attachment: fixed;
+    background-size: cover;
     background-position-x: center;
 }
 
