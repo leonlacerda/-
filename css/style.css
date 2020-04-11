@@ -19,7 +19,6 @@
 
 h1 {
     font-family: 'neonregular', Arial, sans-serif;
-    font-weight: bolder;
     text-align: center;
     font-size: calc(18pt + 2vw);
     /* Glow */
@@ -39,6 +38,11 @@ h1 {
       text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
     }
   }
+
+h2 {
+    position: relative;
+    text-align: center;
+}
 
 h3 {
     padding-top: 2em;
@@ -60,18 +64,31 @@ body {
     overflow: auto;
 }
 
+#bg-video {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
 header {
+    position: relative;
+    left: 0;
+    top: 0;
     height: 50vh;
     width: 100vw;
     margin: auto;
+    overflow: auto;
     /* Margem branca pálida
     background: linear-gradient(to left, rgba(210, 210, 210, 0.1), rgba(0, 0, 0,0), rgba(210, 210, 210, 0.1));
     */
+    /* Antigo bg 
     background-color: white;
     background-image: url('../img/bright-business.jpg');
     background-attachment: fixed;
     background-size: cover;
     background-position-x: center;
+    */
 }
 
 article {
