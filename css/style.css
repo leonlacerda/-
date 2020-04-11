@@ -1,3 +1,13 @@
+
+@font-face {
+    font-family: 'neonregular';
+    src: url('../fonts/neon.woff2') format('woff2'),
+         url('../fonts/neon.woff') format('woff'),
+         url('../fonts/neon.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 * {
     margin: 0;
     border: 0;
@@ -8,7 +18,7 @@
 }
 
 h1 {
-    font-family: 'Comic Neue', cursive;
+    font-family: 'neonregular', Arial, sans-serif;
     font-weight: bolder;
     text-align: center;
     font-size: calc(18pt + 2vw);
@@ -71,17 +81,11 @@ article {
     background-color: white;
     background-image: url('../img/repeated-square.png');
     background-repeat: repeat;
-    }
-
-.filtro-tela {
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0, 0, 0, .05);
     overflow: auto;
     position: relative;
-}
+    }
 
-.filtro-tela p {
+article p {
     position: absolute;
     top: 50%;
     left: 50%;
