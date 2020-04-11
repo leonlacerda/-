@@ -30,26 +30,17 @@ h1 {
     text-align: center;
     font-size: calc(18pt + 2vw);
     color: #ffffff;
-    text-shadow: 0 0 20px #ffffff, 0 0 30px #1EB220, 0 0 40px #1EB220, 0 0 50px #1EB220, 0 0 60px #1EB220, 0 0 70px #1EB220, 0 0 80px #1EB220, 0 0 90px #1EB220;
+    text-shadow: 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 30px #1EB220, 0 0 40px #1EB220, 0 0 50px #1EB220, 0 0 60px #1EB220, 0 0 70px #1EB220, 0 0 80px #1EB220;
 }
 
-.pisca {
+.queimado {
     color: #000000;
     font-weight: bolder;
-    animation: .pisca 1s ease-in-out infinite alternate;
-}
-
-@keyframes .pisca {
-    from {
-        
-    }
-    to {
-       text-shadow: 0 0 0px #ffffff, 0 0 0px #1EB220, 0 0 0px #1EB220, 0 0 0px #1EB220, 0 0 0px #1EB220, 0 0 0px #1EB220, 0 0 0px #1EB220, 0 0 0px #1EB220;
-    }
+    text-shadow: none;
 }
 
 h2 {
-    font-family: 'Raleway Dots', cursive;
+    font-family: 'Homemade Apple', cursive;
     font-weight: bolder; 
     text-align: center;
     font-size: calc(12pt + 1.2vw);
@@ -70,7 +61,7 @@ h3 {
     position: relative;
     margin-top: 2em;
     color: #dcdcdc;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Homemade Apple', cursive;
     font-size: calc(8pt + 1vw);
     text-align: center;
     clear: both;
