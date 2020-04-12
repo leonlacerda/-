@@ -7,15 +7,28 @@
     font-style: normal;
 }
 
-* {
+* { /* Reset simples */
     margin: 0;
     border: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body {
+a {
+    text-decoration: none;
+    color: #424242;
+}
+
+html, body {
+    /* Faz o viewport width não incluir a scrollbar */
+    width: 100vw;
+    overflow-x: hidden;
+    overflow-y: auto;
+    /* -------------------------------------------- */
     background-color: #424242;
+    font-family: 'Open Sans', sans-serif;
+    font-size: calc(8pt + 1vw);
+    color: #424242;
     }
 
 .top-menu {
@@ -57,17 +70,6 @@ h2 {
     }
 }
 
-h3 {
-    position: relative;
-    padding: 2em 0 2em 0;
-    color: #ffffff;
-    font-family: 'Parisienne', cursive;
-    font-size: calc(12pt + 1.5vw);
-    text-align: center;
-    clear: both;
-    text-shadow: 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 30px #b21e57, 0 0 40px #b21e57, 0 0 50px #b21e57, 0 0 60px #b21e57, 0 0 70px #b21e57, 0 0 80px #b21e57;
-}
-
 #bg-video {
     position: fixed;
     top: 0;
@@ -89,11 +91,6 @@ h3 {
     transform: translateY(-50%);
 }
 
-#sites {
-    background-color: #dcdcdc;
-    padding: 2em 0 2em 0;
-}
-
 .texto {
     height: 45vh;
     width: 100vw;
@@ -109,34 +106,50 @@ h3 {
     transform: translateY(-50%) translateX(-50%);
     width: 80vw;
     color: #424242;
-    font-family: 'Open Sans', sans-serif;
     text-indent: 2em;
     text-align: justify;
-    font-size: calc(8pt + 1vw);
 }
 
-.quadro-links {
-    width: 80vw;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 25px;
-    border: .3vw solid #1EB220;
-    text-align: justify;
+#sites {
+    background-color: #dcdcdc;
+    padding: 2em 0 2em 0;
+}
+    
+h3 {
+    position: relative;
+    padding: 1em 0 1em 0;
+    color: #b21e57;
+    font-family: 'Parisienne', cursive;
+    font-weight: bold;
+    font-size: calc(18pt + 2vw);
+    text-align: center;
+    clear: both;
     }
 
-.link-menu a {
+.quadro-links {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+}
+
+.quadro-links::after {
+    content: '';
     display: inline-block;
-    width: 19.8vw;
+    visibility: hidden;
+
+}
+
+.quadro-links a {
+    display: inline-block;
+    width: 20vw;
     height: 20vw;
     line-height: 20vw;
     text-align: center;
-    font-family: 'Open Sans', sans-serif;
-    font-size: calc(6pt + 0.75vw);
-    color: #424242;
     text-decoration: none;
 }
 
-.link-menu a:hover {
+.quadro-links a:hover {
     background-color: rgba(30, 178, 32, .5);
 }
 
