@@ -150,11 +150,12 @@ h3 {
 
 .quadro-links a:hover {
     background-color: rgba(30, 178, 32, .5);
+    border: 1px solid #1E92B2;
 }
 
 footer {
     width: 100vw;
-    border-top: 1vh ridge #b21e57;
+    border-top: 1vh ridge #1EB220;
     padding: 3vw 0 3vw 0;
     background-color: rgb(33, 33, 33);
     text-align: center;
@@ -165,8 +166,7 @@ footer {
     margin: auto;
     line-height: 20pt;
     height: 20pt;
-    width: 80vw;
-    border-radius: 25px;
+    width: 100%;
     font-family: 'Open Sans', sans-serif;
     font-size: calc(4pt + 1vw);
     color: #424242;
