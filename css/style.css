@@ -113,31 +113,51 @@ h2 {
     background-color: #dcdcdc;
     padding: 2em 0 2em 0;
 }
-    
-h3 {
-    position: relative;
-    padding: 1em 0 1em 0;
-    color: #b21e57;
-    font-family: 'Parisienne', cursive;
-    font-weight: bold;
-    font-size: calc(18pt + 2vw);
-    text-align: center;
-    clear: both;
-    }
 
-.quadro-links {
+.justifica {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
     text-align: justify;
 }
 
-.quadro-links::after {
+.justifica::after{ /* Mantém os elementos inline-block acima justificados mas cria uma barra de 1.4em */
     content: '';
     display: inline-block;
-    visibility: hidden;
-
+    width: 100%;
 }
+
+h3 {
+    display: inline-block;
+    padding: 1em 0 1em 0;
+    color: #b21e57;
+    font-family: 'Parisienne', cursive;
+    font-weight: bold;
+    font-size: calc(18pt + 2vw);
+    clear: both;
+    }
+
+.saturno-esq {
+    display: inline-block;
+    vertical-align: middle;
+    width: 30%;
+    }
+    
+.saturno-dir {
+    display: inline-block;
+    vertical-align: middle;
+    width: 30%;
+    transform: scaleX(-1);
+    }
+
+.quadro-links {
+    position: relative;
+    top: -1.4em; /* Compensa a barra criada por .justifica::after */
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    }
 
 .quadro-links a {
     display: inline-block;
