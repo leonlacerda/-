@@ -1,8 +1,8 @@
 @font-face {
     font-family: 'neonregular';
-    src: url('../.fonts/neon.woff2') format('woff2'),
-         url('../.fonts/neon.woff') format('woff'),
-         url('../.fonts/neon.ttf') format('truetype');
+    src: url('../fonts/neon.woff2') format('woff2'),
+         url('../fonts/neon.woff') format('woff'),
+         url('../fonts/neon.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -91,9 +91,7 @@ h2 {
 }
 
 .titulo-sites {
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
+    width: 100%;
     background-color: #dcdcdc;
 }
 
@@ -235,23 +233,23 @@ h3 {
 }
 
 .links a.und {
-    background-image: url(../.img/circ-mag.svg);
+    background-image: url(../img/circ-mag.svg);
 }
 
 .links a.dpe {
-    background-image: url(../.img/brasao.svg);
+    background-image: url(../img/brasao.svg);
 }
 
 .links a.ap {
-    background-image: url(../.img/heavy-point.svg);
+    background-image: url(../img/heavy-point.svg);
 }
 
 .links a.eng {
-    background-image: url(../.img/gears.svg);
+    background-image: url(../img/gears.svg);
 }
 
 .links a.ref {
-    background-image: url(../.img/maca.svg);
+    background-image: url(../img/maca.svg);
 }
 
 .links a.drl {
@@ -259,15 +257,15 @@ h3 {
 }
 
 .links a.rl {
-    background-image: url(../.img/arvre-somo-nos.svg);
+    background-image: url(../img/arvre-somo-nos.svg);
 }
 
 .links a.ats {
-    background-image: url(../.img/sol.svg);
+    background-image: url(../img/sol.svg);
 }
 
 .links a.lia {
-    background-image: url(../.img/liatris.png);
+    background-image: url(../img/liatris.png);
 }
 
 footer {
