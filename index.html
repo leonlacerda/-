@@ -5,9 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fólio de Leon</title>
     <link href="https://fonts.googleapis.com/css?family=Warnes|Homemade+Apple|Open+Sans|Parisienne&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <script src="js/script.js"></script> 
-
+    <link rel="stylesheet" type="text/css" href=".css/style.css">
 </head>
 <body>
     <nav class="top-menu">
@@ -15,7 +13,7 @@
     </nav>
     <header class="cabecalho">
         <video autoplay muted loop id="bg-video">
-            <source src="media/cinturao.mp4" type="video/mp4">
+            <source src=".media/cinturao.mp4" type="video/mp4">
         </video>
         <hgroup class="titulo">
             <h1>Portfo<span class="queimado">l</span>eon</h1>
@@ -23,52 +21,98 @@
         </hgroup>
     </header>
     <hr>
-    <article class="texto">
-        <p class="ola">Olá! Meu nome é Leon Lacerda. Nesse espaço apresento <i>websites</i> manufaturados, feitos sem uso de CMS, no intuito de divulgar meu trabalho como Desenvoledor <i>Web Front-End</i> e <i>Web Designer</i>. Também dou aulas de reforço escolar, escrevo ficção e colaboro com outros projetos criativos. Conheça abaixo os meus trabalhos:</p>
+    <article class="intro">
+        <p class="ola">Olá! Meu nome é Leon Lacerda. Nesse espaço apresento <i>websites</i> feitos por mim, no intuito de divulgar meu trabalho como Desenvoledor <i>Web Front-End</i> e <i>Web Designer</i>. Também dou aulas de reforço escolar, escrevo ficção e colaboro com outros projetos criativos. Conheça abaixo os meus trabalhos:</p>
     </article>
-    <div id="sites">
-        <section>
-            <div class="justifica">
-                <img src="img/divisor-saturno.png" class="saturno-esq" alt="Divisória esquerda com forma de Saturno e luas maiores"/>
-                <h3>Minhas Criações</h3>
-                <img src="img/divisor-saturno.png" class="saturno-dir" alt="Divisória direita com forma de Saturno e luas maiores"/>
+
+    <hgroup class="titulo-sites">
+        <div class="divisor"><span></span><span><h3>Meus Sites</h3></span><span></span></div>
+        <h4>Marque o que deseja ver</h4>
+    </hgroup>
+
+    <section class=section-btn>
+        <div class=quadro-btn>
+
+            <div class="btn btn-estatico" >
+                <div class="sinal-desc">&#9658;</div>
+                <label class="container">
+                    <i>Sites</i> estáticos
+                </label>
+                <input type="checkbox" checked="checked">
             </div>
-            <nav class="quadro-links meus">
-                <a href="undenarii/">Undenarii</a><!--
-                --><a href="reforco/">Reforço</a><!--
-                -->
-            </nav>
-        </section>
-        <section>
-            <div class="justifica">
-                <img src="img/divisor-saturno.png" class="saturno-esq" alt="Divisória esquerda com forma de Saturno e luas maiores"/>
-                <h3>Colaborações</h3>
-                <img src="img/divisor-saturno.png" class="saturno-dir" alt="Divisória direita com forma de Saturno e luas maiores"/>
+
+            <p class="nota nota-estatico"> <!-- Descrição de sites estáticos -->
+               <i>Sites</i> que não possuem ferramentas de gerenciamento e também manufaturados - feitos sem uso de <i><abbr title="Content Management System">CMS</abbr>s</i> como o <i>Wordpress</i>. Por seu baixo custo, são não só ideais para expor trabalhos de uma só vez, quando não se demanda muito em bancos de dados e atualizações, como para treinar e mostrar habilidades de <i>Front-End</i>.
+            </p>
+
+            <div class="btn btn-dinamico" >
+                <div class="sinal-desc">&#9658;</div>
+                <label for="check-dinam">
+                    <i>Sites</i> dinâmicos
+                </label>
+                <input type="checkbox" id="check-dinam" name="check-dinam" checked
+                ></div>
+
+            <p class="nota nota-dinamico"> <!-- Descrição de Sites dinâmicos -->
+                <i>Sites</i> dinâmicos.
+            </p>
+
+            <div class="btn btn-meus" >
+                <div class="sinal-desc">&#9658;</div>
+                <label for="check-meus">
+                    Minhas criações
+                </label>
+                <input type="checkbox" id="check-meus" name="check-meus" checked>
             </div>
-            <nav class="quadro-links nossos"><!--
-                --><a href="rpg/">Dragão do Poço Escuro</a><!--
-                --><a href="ap/">Other Piece</a><!--
-                --><a href="enginelish/">Enginelish</a><!--
-                -->
-            </nav>
-        </section>
-        <section>
-            <div class="justifica">
-                <img src="img/divisor-saturno.png" class="saturno-esq" alt="Divisória esquerda com forma de Saturno e luas maiores"/>
-                <h3>Para Terceiros</h3>
-                <img src="img/divisor-saturno.png" class="saturno-dir" alt="Divisória direita com forma de Saturno e luas maiores"/>
+           
+           <p class="nota nota-meus"> <!-- Descrição de Meus sites -->
+                Esses sites e seus conteúdos foram criados por mim.
+            </p>
+                 
+            <div class="btn btn-nossos" >
+                <div class="sinal-desc">&#9658;</div>
+                <label for="check-nossos">
+                    Colaborações
+                </label>
+                <input type="checkbox" id="check-nossos" name="check-nossos" checked>
             </div>
-            <nav class="quadro-links deles"><!--
-                --><a href="renanlanes/">Dr Renan Lanes</a><!--
-                --><a href="renanlacerda/">Renan Lacerda</a><!--
-                --><a href="periperi/">Sinus Omnium Artificum</a><!--
-                --><a href="liatris/">Liatris</a><!--
-                -->
+
+            <p class="nota nota-nossos"> <!-- Descrição de Colaborações -->
+                Esses sites foram criados por mim, mas seus conteúdos são produtos coletivos.
+            </p>     
+
+            <div class="btn btn-deles" >
+                <div class="sinal-desc">&#9658;</div>
+                <label for="check-deles">
+                    Para terceiros
+                </label>
+                <input type="checkbox" id="check-deles" name="check-deles" checked>
+            </div>
+            <p class="nota nota-deles"> <!-- Descrição de Para terceiros -->
+                Esses sites foram criados por mim para terceiros - todo o conteúdo pertence a eles.
+            </p>
+        </div>
+    </section>
+
+    <section class="section-sites">
+        <div class="quadro-sites">    
+            <nav class="links">
+                <a href="undenarii/" target="_blank" class="und estatico meus">Undenarii</a><a href="reforco/" target="_blank" class="ref estatico meus">Reforço</a><a href="rpg/" target="_blank"  class="dpe estatico nossos"><abbr title="Dragão do Poço Escuro">DPE</abbr></a>
+                <a href="ap/" target="_blank"  class="ap estatico nossos">Other Piece</a>
+                <a href="enginelish/"  target="_blank"  class="eng estatico nossos">Enginelish</a>
+                <a href="arteso/" target="_blank" class="ats estatico nossos"><abbr title="Artistas Independentes da Terra do Sol">ArteSó</abbr></a>
+                <a href="renanlanes/" target="_blank" class="drl estatico deles">Dr Renan Lanes</a>
+                <a href="renanlacerda/" target="_blank" class="rl estatico deles">Renan Lacerda</a>
+                <a href="liatris/" target="_blank" class="lia estatico deles">Liatris</a>
             </nav>
-        </section>
-    </div>
+        </div>    
+    </section>
+
     <footer>
         <p><div class="credito">Leon Lacerda &copy; Todos os direitos reservados.</span></p>
     </footer>
+    <script>
+    	
+    </script>
 </body>
 </html>
