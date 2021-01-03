@@ -22,16 +22,18 @@
     </header>
     <hr>
     <article class="intro">
-        <p class="ola">Olá! Meu nome é Leon Lacerda. Nesse espaço apresento <i>websites</i> feitos por mim, no intuito de divulgar meu trabalho como Desenvoledor <i>Web Front-End</i> e <i>Web Designer</i>. Também dou aulas de reforço escolar, escrevo ficção e colaboro com outros projetos criativos. Conheça abaixo os meus trabalhos:</p>
+        <p class="ola">Olá! Meu nome é Leon Lacerda. Nesse espaço apresento <i>websites</i> feitos por mim, no intuito de divulgar meu trabalho como Desenvoledor <i>Web Front-End</i> e <i>Web Designer</i>. Também dou aulas de reforço escolar, escrevo ficção, mantenho no Youtube o canal Portaleiros e colaboro com outros projetos criativos. Conheça abaixo os meus trabalhos:</p>
     </article>
 
     <hgroup class="titulo-sites">
         <div class="divisor"><span></span><span><h3>Meus Sites</h3></span><span></span></div>
-        <h4>Marque o que deseja ver</h4>
+        <div class="quadro-site q-meussites">
+        <p class="txt-sites">Marque o que deseja ver</p>
+        </div>
     </hgroup>
 
-    <section class=section-btn>
-        <div class=quadro-btn>
+<!-- <section class=section-btn>
+       <div class=quadro-btn>
 
             <div class="btn btn-estatico" >
                 <div class="sinal-desc">&#9658;</div>
@@ -41,7 +43,7 @@
                 <input type="checkbox" checked="checked">
             </div>
 
-            <p class="nota nota-estatico"> <!-- Descrição de sites estáticos -->
+            <p class="nota nota-estatico">
                <i>Sites</i> que não possuem ferramentas de gerenciamento e também manufaturados - feitos sem uso de <i><abbr title="Content Management System">CMS</abbr>s</i> como o <i>Wordpress</i>. Por seu baixo custo, são não só ideais para expor trabalhos de uma só vez, quando não se demanda muito em bancos de dados e atualizações, como para treinar e mostrar habilidades de <i>Front-End</i>.
             </p>
 
@@ -53,7 +55,7 @@
                 <input type="checkbox" id="check-dinam" name="check-dinam" checked
                 ></div>
 
-            <p class="nota nota-dinamico"> <!-- Descrição de Sites dinâmicos -->
+            <p class="nota nota-dinamico">
                 <i>Sites</i> dinâmicos.
             </p>
 
@@ -65,7 +67,7 @@
                 <input type="checkbox" id="check-meus" name="check-meus" checked>
             </div>
            
-           <p class="nota nota-meus"> <!-- Descrição de Meus sites -->
+           <p class="nota nota-meus">
                 Esses sites e seus conteúdos foram criados por mim.
             </p>
                  
@@ -77,7 +79,7 @@
                 <input type="checkbox" id="check-nossos" name="check-nossos" checked>
             </div>
 
-            <p class="nota nota-nossos"> <!-- Descrição de Colaborações -->
+            <p class="nota nota-nossos">
                 Esses sites foram criados por mim, mas seus conteúdos são produtos coletivos.
             </p>     
 
@@ -88,24 +90,112 @@
                 </label>
                 <input type="checkbox" id="check-deles" name="check-deles" checked>
             </div>
-            <p class="nota nota-deles"> <!-- Descrição de Para terceiros -->
+            <p class="nota nota-deles">
                 Esses sites foram criados por mim para terceiros - todo o conteúdo pertence a eles.
             </p>
         </div>
     </section>
-
-    <section class="section-sites">
-        <div class="quadro-sites">    
-            <nav class="links">
-                <a href="portaleiros/" target="_blank" class="port estatico meus">Portaleiros</a><a href="reforco/" target="_blank" class="ref estatico meus">Reforço</a><a href="rpg/" target="_blank"  class="dpe estatico nossos"><abbr title="Dragão do Poço Escuro">DPE</abbr></a>
-                <a href="ap/" target="_blank"  class="ap estatico nossos">Other Piece</a>
-                <a href="enginelish/"  target="_blank"  class="eng estatico nossos">Enginelish</a>
-                <a href="arteso/" target="_blank" class="ats estatico nossos"><abbr title="Artistas Independentes da Terra do Sol">ArteSó</abbr></a>
-                <a href="renanlanes/" target="_blank" class="drl estatico deles">Dr Renan Lanes</a>
-                <a href="renanlacerda/" target="_blank" class="rl estatico deles">Renan Lacerda</a>
-                <a href="liatris/" target="_blank" class="lia estatico deles">Liatris</a>
-            </nav>
-        </div>    
+-->
+    <section class="section-sites">   
+        <div class="quadro-site q-port"> 
+            <a href="portaleiros/" target="_blank" class="a-port estatico meus">Portaleiros</a>
+            <div class=desc>
+                <p><span class="categoria">Descrição:</span></p>
+            </div>
+            <div class=atribs>
+                <p><span class="categoria">Nome:</span> Portaleiros</p>
+                <p><span class="categoria">Tipo de site:</span> Dinâmico</p>
+                <p><span class="categoria">Conteúdo:</span> Criação própria</p>
+            </div>
+        </div>
+        <div class="quadro-site q-ref">     
+            <a href="reforco/" target="_blank" class="a-ref estatico meus">Reforço</a>
+            <div class=desc>
+                <p><span class="categoria">Descrição:</span></p>
+            </div>
+            <div class=atribs>
+                <p><span class="categoria">Nome:</span> Reforço Escolar</p>
+                <p><span class="categoria">Tipo de site:</span> Estático</p>
+                <p><span class="categoria">Conteúdo:</span> Criação própria</p>
+            </div>
+        </div>
+        <div class="quadro-site q-dpe">     
+            <a href="rpg/" target="_blank"  class="a-dpe estatico nossos"><abbr title="Dragão do Poço Escuro">DPE</abbr></a>
+            <div class=desc>
+                <p><span class="categoria">Descrição:</span></p>
+            </div>
+            <div class=atribs>
+                <p><span class="categoria">Nome:</span> Dragão do poço Escuro</p>
+                <p><span class="categoria">Tipo de site:</span> Dinâmico</p>
+                <p><span class="categoria">Conteúdo:</span> Colaborativo</p>
+            </div>
+        </div>
+        <div class="quadro-site q-ap">  
+            <a href="ap/" target="_blank"  class="a-ap estatico nossos">Another Piece</a>
+            <div class=desc>
+                <p><span class="categoria">Descrição:</span></p>
+            </div>
+            <div class=atribs>
+                <p><span class="categoria">Nome:</span> Another Piece</p>
+                <p><span class="categoria">Tipo de site:</span> Estático</p>
+                <p><span class="categoria">Conteúdo:</span> Colaborativo</p>
+            </div>
+        </div>
+        <div class="quadro-site q-eng">  
+            <a href="enginelish/"  target="_blank"  class="a-eng estatico nossos">Enginelish</a>
+            <div class=desc>
+                <p><span class="categoria">Descrição:</span></p>
+            </div>
+            <div class=atribs>
+                <p><span class="categoria">Nome:</span> Enginelish</p>
+                <p><span class="categoria">Tipo de site:</span> Estático</p>
+                <p><span class="categoria">Conteúdo:</span> Colaborativo</p>
+            </div>
+        </div>
+        <div class="quadro-site q-sdb">      
+            <a href="sdb/" target="_blank" class="a-sdb dinamico deles"><abbr title="Loja Sonho de Beleza">Sonho de Beleza</abbr></a>
+            <div class=desc>
+                <p><span class="categoria">Descrição:</span> Loja Online</p>
+            </div>
+            <div class=atribs>
+                <p><span class="categoria">Nome:</span> Sonho de Beleza</p>
+                <p><span class="categoria">Tipo de site:</span> Dinâmico</p>
+                <p><span class="categoria">Conteúdo:</span> De terceiros</p>
+            </div>
+        </div>
+        <div class="quadro-site q-drl">  
+            <a href="renanlanes/" target="_blank" class="a-drl estatico deles">Dr Renan Lanes</a>
+            <div class=desc>
+                <p><span class="categoria">Descrição:</span></p>
+            </div>
+            <div class=atribs>
+                <p><span class="categoria">Nome:</span> Clínica de Olhos Dr Renan Lanes</p>
+                <p><span class="categoria">Tipo de site:</span> Estático</p>
+                <p><span class="categoria">Conteúdo:</span> De terceiros</p>
+            </div>
+        </div>
+        <div class="quadro-site q-rl">      
+            <a href="renanlacerda/" target="_blank" class="a-rl estatico deles">Renan Lacerda</a>
+            <div class=desc>
+                <p><span class="categoria">Descrição:</span></p>
+            </div>
+            <div class=atribs>
+                <p><span class="categoria">Nome:</span> Renan Lacerda Psicólogo</p>
+                <p><span class="categoria">Tipo de site:</span> Estático</p>
+                <p><span class="categoria">Conteúdo:</span> De terceiros</p>
+            </div>
+        </div>
+        <div class="quadro-site q-lia">  
+            <a href="liatris/" target="_blank" class="a-lia estatico deles">Liatris</a>
+            <div class=desc>
+                <p><span class="categoria">Descrição:</span></p>
+            </div>
+            <div class=atribs>
+                <p><span class="categoria">Nome:</span> Tributo a Liatris</p>
+                <p><span class="categoria">Tipo de site:</span> Estático</p>
+                <p><span class="categoria">Conteúdo:</span> De terceiros</p>
+            </div>
+        <div class="quadro-site">
     </section>
 
     <footer>
