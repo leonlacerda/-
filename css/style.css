@@ -49,6 +49,22 @@ h1 {
     color: #000000;
     font-weight: bolder;
     text-shadow: none;
+    animation: queimado 4s step-end infinite alternate;
+}
+
+@keyframes queimado {
+    34%   {color: #ffffff; font-weight: normal;
+        text-shadow: 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 30px #1EB220, 0 0 40px #1EB220, 0 0 50px #1EB220, 0 0 60px #1EB220, 0 0 70px #1EB220, 0 0 80px #1EB220;}
+    36% {color: #000000; font-weight: bolder; text-shadow: none;}
+    50%   {color: #ffffff; font-weight: normal;
+        text-shadow: 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 30px #1EB220, 0 0 40px #1EB220, 0 0 50px #1EB220, 0 0 60px #1EB220, 0 0 70px #1EB220, 0 0 80px #1EB220;}
+    52% {color: #000000; font-weight: bolder; text-shadow: none;}
+    54%   {color: #ffffff; font-weight: normal;
+            text-shadow: 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 30px #1EB220, 0 0 40px #1EB220, 0 0 50px #1EB220, 0 0 60px #1EB220, 0 0 70px #1EB220, 0 0 80px #1EB220;}
+    56% {color: #000000; font-weight: bolder; text-shadow: none;}
+    94%   {color: #ffffff; font-weight: normal;
+        text-shadow: 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 30px #1EB220, 0 0 40px #1EB220, 0 0 50px #1EB220, 0 0 60px #1EB220, 0 0 70px #1EB220, 0 0 80px #1EB220;}
+    96% {color: #000000; font-weight: bolder; text-shadow: none;}
 }
 
 h2 {
