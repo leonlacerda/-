@@ -188,7 +188,8 @@ h3 {
     color: #424242;
     text-indent: 2em;
     text-align: justify;
-    padding-bottom: 2vw;
+    padding-bottom: 1vw;
+    font-size: .6rem;
 }
 
     .divisor {
@@ -252,11 +253,7 @@ h3 {
     margin-bottom: 2vw;
 }
 
-.quadro-site p {
-    font-size: .6rem;
-}
-
-p span.categoria {
+span.categoria {
     font-weight: bold;
 }
 
