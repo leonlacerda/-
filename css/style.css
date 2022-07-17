@@ -7,6 +7,19 @@
     font-style: normal;
 }
 
+:root {
+    /* cores */
+    --cor1: #DCDCDC;
+    --cor2: #1EB220;
+    --cor3: #b21e57;
+    --cor4: #424242;
+    --cor5: #1c1c1c;
+    /* tipografias */
+    --fonte-portaleiros: 'Expletus Sans', cursive;
+    --fonte-link: 'Comfortaa', cursive;
+    --fonte-texto: 'Montserrat', sans-serif;
+}
+
 * { /* Reset simples */
     margin: 0;
     border: 0;
@@ -38,9 +51,11 @@ html, body {
 
 h1 {
     font-family: 'neonregular', 'Warnes', Arial, cursive;
+    font-variant: small-caps;
     font-weight: normal;
     text-align: center;
-    font-size: calc(18pt + 2vw);
+    letter-spacing: .5em;
+    font-size: calc(20pt + 2.2vw);
     color: #ffffff;
     text-shadow: 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 30px #1EB220, 0 0 40px #1EB220, 0 0 50px #1EB220, 0 0 60px #1EB220, 0 0 70px #1EB220, 0 0 80px #1EB220;
 }
@@ -88,13 +103,16 @@ h2 {
 #bg-video {
     position: fixed;
     top: 0;
+    left: 0;
     z-index: -1;
-    width: 100%;
+    min-width: 100%;
+    height: 100%;
+    background: var(--cor5);
 }
 
 .cabecalho {
-    height: 45vh;
-    width: 100%;
+    height: 90vh;
+    width: 100vw;
     margin-left: auto;
     margin-right: auto;
     background-color: rgba(0, 0, 0, 0);
