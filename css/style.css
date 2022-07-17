@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'neonregular';
-    src: url('../fonts/neon.woff2') format('woff2'),
+    src: url('../fonts/') format('woff2'),
          url('../fonts/neon.woff') format('woff'),
          url('../fonts/neon.ttf') format('truetype');
     font-weight: normal;
@@ -15,9 +15,8 @@
     --cor4: #424242;
     --cor5: #1c1c1c;
     /* tipografias */
-    --fonte-portaleiros: 'Expletus Sans', cursive;
-    --fonte-link: 'Comfortaa', cursive;
-    --fonte-texto: 'Montserrat', sans-serif;
+    --fonte-opensans: 'Open Sans', sans-serif;
+    --fonte-neonregular: 'neonregular', 'Warnes', Arial, cursive;
 }
 
 * { /* Reset simples */
@@ -110,6 +109,16 @@ h2 {
     background: var(--cor5);
 }
 
+@media (max-width:320px) {
+    #bg-video {
+        display: none;
+    }
+    .cabecalho {
+        background-image: url("../img/cinturao-320px.jpg");
+        background-size: cover;
+        background-color: var(--cor5);
+    }
+}
 @media (min-width:1000px) {
     #bg-video {
         transform: scaleX(110%);
@@ -136,7 +145,6 @@ h2 {
     width: 100vw;
     margin-left: auto;
     margin-right: auto;
-    background-color: rgba(0, 0, 0, 0);
 }
 
 .titulo {
