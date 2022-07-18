@@ -78,29 +78,29 @@ html, body {
     }
 
     nav {
-        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        padding-top: 50px;
+        width: 100%;
+        margin: auto;
     }
 
     nav a {
-        display: flex;
-        flex-direction: column;
-        width: 400px;
         border: 1px solid black;
-        margin: auto;
         text-align: center;
     }
 
     .left, .right {
-        width: 70%;
+        width: 80%;
         padding: 5px 10px;
       }
       
       .left {
-        float: left;
+        align-self: flex-start;
       }
       
       .right {
-        float: right;
+        align-self: flex-end;
       }
 
     #blob1, #blob2, #blob3 {
@@ -119,6 +119,5 @@ html, body {
     }
 
     footer {
-        clear: both;
         height: 100px;
     }
