@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'neonregular';
+    src: url('../fonts/') format('woff2'),
+         url('../fonts/neon.woff') format('woff'),
+         url('../fonts/neon.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    /* cores */
+    --cor1: #F78DA7;
+    --cor2: #B2BCFB;
+    --cor3: #B2BCFB;
+    --cor4: #8ED1FC;
+    --cor5: #424242;
+    --cor6: #1c1c1c;
+    /* tipografias */
+    --fonte-opensans: 'Open Sans', sans-serif;
+    --fonte-neonregular: 'neonregular', 'Warnes', Arial, cursive;
+}
+
+* { /* Reset simples */
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #424242;
+}
+
+html, body {
+    /* Faz o viewport width não incluir a scrollbar */
+    width: 100vw;
+    overflow-x: hidden;
+    overflow-y: auto;
+    /* -------------------------------------------- */
+    font-family: 'Open Sans', sans-serif;
+    font-size: calc(8pt + 1vw);
+    color: #424242;
+    }
+
+#ondas {
+        position:fixed;
+        top: 0;
+        z-index: -1;
+        height: auto;
+        width: 100%;
+    }
+
+@media (max-width:375px) {
+    
+}
