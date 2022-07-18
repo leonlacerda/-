@@ -82,16 +82,26 @@ html, body {
     }
 
     nav a {
-        display: block;
+        display: flex;
+        flex-direction: column;
         width: 400px;
         border: 1px solid black;
         margin: auto;
         text-align: center;
     }
 
-    #logo-portaleiros {
-        clip-path: url(img/blob.svg);
-    }
+    .left, .right {
+        width: 70%;
+        padding: 5px 10px;
+      }
+      
+      .left {
+        float: left;
+      }
+      
+      .right {
+        float: right;
+      }
 
     #blob1, #blob2, #blob3 {
         display: block;
@@ -106,4 +116,9 @@ html, body {
         background-clip: text;
         -webkit-background-clip: text;
         color: transparent;
+    }
+
+    footer {
+        clear: both;
+        height: 100px;
     }
