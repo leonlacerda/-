@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Gaegu&display=swap');
+
 @font-face {
-    font-family: 'neonregular';
-    src: url('../fonts/') format('woff2'),
-         url('../fonts/neon.woff') format('woff'),
-         url('../fonts/neon.ttf') format('truetype');
+    font-family: '';
+    src: url('lp/fonts/.woff2') format('woff2'),
+         url('lp/fonts/.woff') format('woff'),
+         url('lp/fonts/.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -10,7 +12,7 @@
 :root {
     /* cores */
     --cor1: #F78DA7;
-    --cor2: #B2BCFB;
+    --cor2: #DFA2DD;
     --cor3: #B2BCFB;
     --cor4: #8ED1FC;
     --cor5: #424242;
@@ -18,6 +20,8 @@
     /* tipografias */
     --fonte-opensans: 'Open Sans', sans-serif;
     --fonte-neonregular: 'neonregular', 'Warnes', Arial, cursive;
+    --fonte-gaegu: 'Gaegu', cursive;
+    --fonte-amaticsc: 'Amatic SC', cursive;
 }
 
 * { /* Reset simples */
@@ -49,6 +53,54 @@ html, body {
         z-index: -1;
         height: auto;
         width: 100%;
+    }
+
+    hgroup {
+        margin-top: 200px;
+        font-family: var(--fonte-amaticsc);
+        text-align: center;
+        font-size:x-large;
+        }
+/*
+    @media (max-width:600px) {
+        hgroup {
+            margin-top: 200px;
+        }
+    }
+*/
+    h1 {
+        font-weight: bold;
+    }
+
+    h2 {
+        font-weight: normal;
+        letter-spacing: .125em;
+    }
+
+    nav {
+        margin-top: 50px;
+    }
+
+    nav a {
+        display: block;
+        width: 400px;
+        border: 1px solid black;
+        margin: auto;
+        text-align: center;
+    }
+
+    #logo-portaleiros {
+        clip-path: url(img/blob.svg);
+    }
+
+    #blob1, #blob2, #blob3 {
+        display: block;
+        margin: auto;
+        width: 150px;
+    }
+
+    #blob1 {
+        
     }
 
 @media (max-width:375px) {
