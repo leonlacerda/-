@@ -73,7 +73,7 @@ html, body {
     }
 
     h2 {
-        font-weight: normal;
+        font-weight: bolder;
         letter-spacing: .125em;
     }
 
@@ -96,5 +96,14 @@ html, body {
     #blob1, #blob2, #blob3 {
         display: block;
         margin: auto;
-        width: 150px;
+        width: 160px;
+        font-family: var(--fonte-gaegu);
+        font-size: 1em;
+    }
+
+    .texto-gradiente {
+        background-image: linear-gradient(to right, #8ED1FC, #F78DA7, #8ED1FC);
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
     }
