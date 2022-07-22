@@ -1,214 +1,200 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en" class="no-js">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fólio de Leon</title>
-    <link href="https://fonts.googleapis.com/css?family=Warnes|Homemade+Apple|Open+Sans|Parisienne&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Venus Template</title>
+    <link href="https://fonts.googleapis.com/css?family=Heebo:400,700|Oxygen:700" rel="stylesheet">
+    <link rel="stylesheet" href="dist/css/style.css">
+    <script src="https://unpkg.com/scrollreveal@4.0.5/dist/scrollreveal.min.js"></script>
 </head>
-<body>
-    <nav class="top-menu">
-        <p style="text-align: center; line-height: 10vh;">Aqui entrarão botões.</p>
-    </nav>
-    <header class="cabecalho">
-        <video autoplay muted loop id="bg-video">
-            <source src="media/cinturao.mp4" type="video/mp4">
-        </video>
-        <hgroup class="titulo">
-            <h1>LeoJS.<span class="queimado">D</span>ev</h1>
-            <h2>Bem-vindos ao meu fólio!</h2>
-        </hgroup>
-    </header>
-    <hr>
-    <article class="intro">
-        <p class="ola">Olá! Meu nome é Leon Lacerda. Nesse espaço apresento <i>websites</i> feitos por mim, no intuito de divulgar meu trabalho como Desenvoledor <i>Web Front-End</i> e <i>Web Designer</i>. Também dou aulas de reforço escolar, escrevo ficção, mantenho no Youtube o canal Portaleiros e colaboro com outros projetos criativos. Conheça abaixo os meus trabalhos:</p>
-    </article>
+<body class="is-boxed has-animations">
+    <div class="body-wrap boxed-container">
+        <header class="site-header text-light">
+            <div class="container">
+                <div class="site-header-inner">
+                    <div class="brand header-brand">
+                        <h1 class="m-0">
+                            <a href="#">
+								<img class="header-logo-image" src="dist/images/logo.svg" alt="Logo">
+                            </a>
+                        </h1>
+                    </div>
+                </div>
+            </div>
+        </header>
 
-    <hgroup class="titulo-sites">
-        <div class="divisor"><span></span><span><h3>Meus Sites</h3></span><span></span></div>
-        <div class="quadro-site q-meussites">
-        <p class="txt-sites">As principais categorias de sites nessa exposição são quanto ao tipo de site, se "estático" ou "dinâmico", e quando ao conteúdo, se "de criação própria", "colaborativo" ou "de terceiros".</p>
-        <p class="txt-sites">
-            Os <i>sites</i> de tipo "estático" são manufaturados, feitos em HTML e linguagens <i>client-side</i>, sem bancos de dados e sem <i><abbr title="Content Management System">CMS</abbr>s</i> como o <i>Wordpress</i>. Por seu baixo custo, são ideais para expor trabalhos de uma só vez, quando não se tem demanda por atualizações, e também para treinar e mostrar habilidades de <i>Front-End</i>. Já os de tipo "dinâmico" usam linguagens <i>server-side</i>, contam com bancos de dados e podem ser gerenciados por <i><abbr title="Content Management System">CMS</abbr>s</i>.
-        </p>
-        <p class="txt-sites">
-            <i>Sites</i> com conteúdo "de criação própria" são de minha completa autoria, incluindo sua multimídia, exceto quando especificado o contrário; "colaborativos" foram feitos por mim usando material meu e de colaboradores; enquanto "de terceiros" foram feitos por mim para terceiros, de modo que todo o material pertence a eles.
-        </p>
-        </div>
-    </hgroup>
+        <main>
+            <section class="hero text-center text-light">
+				<div class="hero-bg"></div>
+				<div class="hero-particles-container">
+					<canvas id="hero-particles"></canvas>
+				</div>
+                <div class="container-sm">
+                    <div class="hero-inner">
+						<div class="hero-copy">
+	                        <h1 class="hero-title mt-0">LeoJS.dev</h1>
+	                        <p class="hero-paragraph">Meu nome é Leon Lacerda e esse é o meu portfólio como Desenvolvedor Web Front-End e Web Designer. Seja muito bem-vindo(a)!</p>
+	                        <div class="hero-cta">
+								<a class="button button-primary button-wide-mobile" href="https://wa.me/5577991245948?text=Olá!%20Vi%20o%20seu%20portfólio%20e%20gostaria%20de%20encomendar%20um%20site." target="_blank">Fale comigo pelo Whatsapp</a>
+							</div>
+						</div>
+						<div class="mockup-container">
+							<div class="mockup-bg">
+								<img src="dist/images/iphone-hero-bg.svg" alt="iPhone illustration">
+							</div>
+							<img class="device-mockup" src="dist/images/iphone-hero.png" alt="iPhone Hero">
+						</div>
+                    </div>
+                </div>
+            </section>
 
-<!-- <section class=section-btn>
-       <div class=quadro-btn>
+			<section class="features-extended section">
+                <div class="features-extended-inner section-inner">
+					<div class="features-extended-wrap">
+						<div class="container">
+							<div class="feature-extended">
+								<div class="feature-extended-image">
+									<div class="mockup-bg">
+										<img src="dist/images/iphone-feature-bg-01.svg" alt="iPhone Feature 01 illustration">
+									</div>
+									<a href="https://www.portaleiros.com" target="_blank"><img class="device-mockup is-revealing" src="img/axis.svg" alt="Logo do projeto Portaleiros"></a>
+								</div>
+								<div class="feature-extended-body is-revealing">
+									<h3 class="mt-0 mb-16">Portaleiros</h3>
+									<p class="m-0">Uma página de divulgação e loja virtual (com livros físicos e virtuais) de meu projeto Portaleiros de ficção fantástica.<br/>Em construção.</p>
+								</div>
+							</div>
+							<div class="feature-extended">
+								<div class="feature-extended-image">
+									<div class="mockup-bg">
+										<img src="dist/images/iphone-feature-bg-02.svg" alt="iPhone Feature 02 illustration">
+									</div>
+									<img class="device-mockup is-revealing" src="img/coruja3.svg" alt="iPhone Feature 02">
+								</div>
+								<div class="feature-extended-body is-revealing">
+									<h3 class="mt-0 mb-16">Reforço Escolar</h3>
+									<p class="m-0">Site de divulgação de minhas aulas de Reforço Escolar, para todas as séries e matérias, em espaço comercial próprio na cidade de Vitória da Conquista/BA.<br/>Em breve.</p>
+								</div>
+							</div>
+							<div class="feature-extended">
+								<div class="feature-extended-image">
+									<div class="mockup-bg">
+										<img src="dist/images/iphone-feature-bg-03.svg" alt="iPhone Feature 03 illustration">
+									</div>
+									<img class="device-mockup is-revealing" src="dist/images/iphone-feature-03.png" alt="iPhone Feature 03">
+								</div>
+								<div class="feature-extended-body is-revealing">
+									<h3 class="mt-0 mb-16">Landing Page Portaleiros</h3>
+									<p class="m-0">Uma Landing Page exclusiva para apresentar meu projeto Portaleiros, de forma curta, direta e atrativa, como as redes sociais exigem.<br/>
+									Em breve.</p>
+								</div>
+							</div>
+							<div class="feature-extended">
+								<div class="feature-extended-image">
+									<div class="mockup-bg">
+										<img src="dist/images/iphone-feature-bg-04.svg" alt="iPhone Feature 04 illustration">
+									</div>
+									<a href="lp/index.html" target="_blank"><img class="device-mockup is-revealing" src="dist/images/iphone-feature-04.png" alt="iPhone Feature 04"></a>
+								</div>
+								<div class="feature-extended-body is-revealing">
+									<h3 class="mt-0 mb-16">Landing Page Pessoal</h3>
+									<p class="m-0">Uma Landing Page para minhas redes sociais pessoais, onde apresento de forma rápida todos os serviços que realizo.<br/>Em construção.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+                </div>
+            </section>
+        </main>
 
-            <div class="btn btn-estatico" >
-                <div class="sinal-desc">&#9658;</div>
-                <label class="container">
-                    <i>Sites</i> estáticos
-                </label>
-                <input type="checkbox" checked="checked">
-            </div>
+		<footer class="site-footer">
+			<div class="footer-particles-container">
+				<canvas id="footer-particles"></canvas>
+			</div>
+			<div class="site-footer-top">
+				<section class="cta section text-light">
+					<div class="container-sm">
+						<div class="cta-inner section-inner">
+							<div class="cta-header text-center">
+								<h2 class="section-title mt-0">Detalhes técnicos</h2>
+								<p class="section-paragraph">Exceto por Portaleiros, os sites apresentados são estáticos, ou seja, feitos em HTML e linguagens client-side, sem bancos de dados. Sites assim, por seu baixo custo, são ideais para expor trabalhos de uma só vez, quando não há demanda por atualizações, assim como para exibir habilidades de Front-End. Apesar de ser dinâmico, isto é, contar com linguagens server-side e bancos de dados, Portaleiros não é gerenciado por CMSs, como o Wordpress. Assim optei pelo ganho de experiência, mas, do mesmo modo, pretendo realizar muitos sites em Wordpress.</p>
+								<h2 class="section-title mt-0">Obrigado por sua atenção. Volte sempre!</h2>
+								<!--
+									<div class="cta-cta">
+									<a class="button button-primary button-wide-mobile" href="mailto:leonlacerda@gmail.com?subject=Contato%20pelo%20site%20leojs.dev">Envie-me um email</a>
+								</div>
+								-->
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
+			<div class="site-footer-bottom">
+				<div class="container">
+					<div class="site-footer-inner">
+						<div class="brand footer-brand">
+							<a href="#">
+								<img src="dist/images/logo.svg" alt="Venus logo">
+							</a>
+						</div>
+						<!--
+						<ul class="footer-links list-reset">
+							<li>
+								<a href="#">Contato</a>
+							</li>
+							<li>
+								<a href="#">Sobre nós</a>
+							</li>
+							<li>
+								<a href="#">FAQ's</a>
+							</li>
+							<li>
+								<a href="#">Suporte</a>
+							</li>
+						</ul>
+						-->
+						<ul class="footer-social-links list-reset">
+							<li>
+								<a href="https://www.instagram.com/leojs.dev" target="_blank">
+									<span class="screen-reader-text">Instagram</span>
+									<svg width="32" height="32" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+									width="32" height="32"
+									viewBox="-10 7 64 64">
+										<path d="M 31.820312 12 C 13.438312 12 12 13.439312 12 31.820312 L 12 32.179688 C 12 50.560688 13.438313 52 31.820312 52 L 32.179688 52 C 50.561688 52 52 50.560688 52 32.179688 L 52 32 C 52 13.452 50.548 12 32 12 L 31.820312 12 z M 43.994141 18 C 45.099141 17.997 45.997 18.889141 46 19.994141 C 46.003 21.099141 45.110859 21.997 44.005859 22 C 42.900859 22.003 42.003 21.110859 42 20.005859 C 41.997 18.900859 42.889141 18.003 43.994141 18 z M 31.976562 22 C 37.498562 21.987 41.987 26.454563 42 31.976562 C 42.013 37.498562 37.545437 41.987 32.023438 42 C 26.501437 42.013 22.013 37.545437 22 32.023438 C 21.987 26.501437 26.454563 22.013 31.976562 22 z M 31.986328 26 C 28.672328 26.008 25.992 28.701625 26 32.015625 C 26.008 35.328625 28.700672 38.008 32.013672 38 C 35.327672 37.992 38.008 35.299328 38 31.986328 C 37.992 28.672328 35.299328 25.992 31.986328 26 z" fill="#FFF"/>
+									</svg>
+								</a>
+							</li>
+							<li>
+								<a href="https://github.com/leonlacerda" target="_blank">
+									<span class="screen-reader-text">Github</span>
+									<svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+									width="24" height="24"
+									viewBox="0 0 64 64">
+										<path d="M32 6C17.641 6 6 17.641 6 32c0 12.277 8.512 22.56 19.955 25.286-.592-.141-1.179-.299-1.755-.479V50.85c0 0-.975.325-2.275.325-3.637 0-5.148-3.245-5.525-4.875-.229-.993-.827-1.934-1.469-2.509-.767-.684-1.126-.686-1.131-.92-.01-.491.658-.471.975-.471 1.625 0 2.857 1.729 3.429 2.623 1.417 2.207 2.938 2.577 3.721 2.577.975 0 1.817-.146 2.397-.426.268-1.888 1.108-3.57 2.478-4.774-6.097-1.219-10.4-4.716-10.4-10.4 0-2.928 1.175-5.619 3.133-7.792C19.333 23.641 19 22.494 19 20.625c0-1.235.086-2.751.65-4.225 0 0 3.708.026 7.205 3.338C28.469 19.268 30.196 19 32 19s3.531.268 5.145.738c3.497-3.312 7.205-3.338 7.205-3.338.567 1.474.65 2.99.65 4.225 0 2.015-.268 3.19-.432 3.697C46.466 26.475 47.6 29.124 47.6 32c0 5.684-4.303 9.181-10.4 10.4 1.628 1.43 2.6 3.513 2.6 5.85v8.557c-.576.181-1.162.338-1.755.479C49.488 54.56 58 44.277 58 32 58 17.641 46.359 6 32 6zM33.813 57.93C33.214 57.972 32.61 58 32 58 32.61 58 33.213 57.971 33.813 57.93zM37.786 57.346c-1.164.265-2.357.451-3.575.554C35.429 57.797 36.622 57.61 37.786 57.346zM32 58c-.61 0-1.214-.028-1.813-.07C30.787 57.971 31.39 58 32 58zM29.788 57.9c-1.217-.103-2.411-.289-3.574-.554C27.378 57.61 28.571 57.797 29.788 57.9z" fill="#FFF"/>
+									</svg>
+								</a>
+							</li>
+							<li>
+								<a href="mailto:leonlacerda@gmail.com?subject=Contato%20pelo%20site%20leojs.dev" target="_blank">			
+									<span class="screen-reader-text">Email</span>
+									<svg width="32" height="32" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+									width="32" height="32"
+									viewBox="0 0 64 64">
+										<path d="M12 23.403V23.39 10.389L11.88 10.3h-.01L9.14 8.28C7.47 7.04 5.09 7.1 3.61 8.56 2.62 9.54 2 10.9 2 12.41v3.602L12 23.403zM38 23.39v.013l10-7.391V12.41c0-1.49-.6-2.85-1.58-3.83-1.46-1.457-3.765-1.628-5.424-.403L38.12 10.3 38 10.389V23.39zM14 24.868l10.406 7.692c.353.261.836.261 1.189 0L36 24.868V11.867L25 20l-11-8.133V24.868zM38 25.889V41c0 .552.448 1 1 1h6.5c1.381 0 2.5-1.119 2.5-2.5V18.497L38 25.889zM12 25.889L2 18.497V39.5C2 40.881 3.119 42 4.5 42H11c.552 0 1-.448 1-1V25.889z" fill="#FFF"/>
+									</svg>
+								</a>
+							</li>
+						</ul><div class="footer-copyright">Desenvolvido por Leon Lacerda</div>
+						<div class="footer-copyright">&copy; 2018 Venus, todos os direitos reservados</div>
+					</div>
+				</div>
+			</div>
+        </footer>
+    </div>
 
-            <p class="nota nota-estatico">
-               <i>Sites</i> que não possuem ferramentas de gerenciamento e também manufaturados - feitos sem uso de <i><abbr title="Content Management System">CMS</abbr>s</i> como o <i>Wordpress</i>. Por seu baixo custo, são não só ideais para expor trabalhos de uma só vez, quando não se demanda muito em bancos de dados e atualizações, como para treinar e mostrar habilidades de <i>Front-End</i>.
-            </p>
-
-            <div class="btn btn-dinamico" >
-                <div class="sinal-desc">&#9658;</div>
-                <label for="check-dinam">
-                    <i>Sites</i> dinâmicos
-                </label>
-                <input type="checkbox" id="check-dinam" name="check-dinam" checked
-                ></div>
-
-            <p class="nota nota-dinamico">
-                <i>Sites</i> dinâmicos.
-            </p>
-
-            <div class="btn btn-meus" >
-                <div class="sinal-desc">&#9658;</div>
-                <label for="check-meus">
-                    Minhas criações
-                </label>
-                <input type="checkbox" id="check-meus" name="check-meus" checked>
-            </div>
-           
-           <p class="nota nota-meus">
-                Esses sites e seus conteúdos foram criados por mim.
-            </p>
-                 
-            <div class="btn btn-nossos" >
-                <div class="sinal-desc">&#9658;</div>
-                <label for="check-nossos">
-                    Colaborações
-                </label>
-                <input type="checkbox" id="check-nossos" name="check-nossos" checked>
-            </div>
-
-            <p class="nota nota-nossos">
-                Esses sites foram criados por mim, mas seus conteúdos são produtos coletivos.
-            </p>     
-
-            <div class="btn btn-deles" >
-                <div class="sinal-desc">&#9658;</div>
-                <label for="check-deles">
-                    Para terceiros
-                </label>
-                <input type="checkbox" id="check-deles" name="check-deles" checked>
-            </div>
-            <p class="nota nota-deles">
-                Esses sites foram criados por mim para terceiros - todo o conteúdo pertence a eles.
-            </p>
-        </div>
-    </section>
--->
-    <section class="section-sites">   
-        <div class="quadro-site q-port"> 
-            <a href="portaleiros/" target="_blank" class="a-port estatico meus">Portaleiros</a>
-            <div class=desc>
-                <p><span class="categoria">Descrição:</span></p>
-            </div>
-            <div class=atribs>
-                <p><span class="categoria">Nome:</span> Portaleiros</p>
-                <p><span class="categoria">Tipo de site:</span> Dinâmico</p>
-                <p><span class="categoria">Conteúdo:</span> De criação própria</p>
-            </div>
-        </div>
-        <div class="quadro-site q-ref">     
-            <a href="reforco/" target="_blank" class="a-ref estatico meus">Reforço</a>
-            <div class=desc>
-                <p><span class="categoria">Descrição:</span></p>
-            </div>
-            <div class=atribs>
-                <p><span class="categoria">Nome:</span> Reforço Escolar</p>
-                <p><span class="categoria">Tipo de site:</span> Estático</p>
-                <p><span class="categoria">Conteúdo:</span> De criação própria</p>
-            </div>
-        </div>
-        <div class="quadro-site q-dpe">     
-            <a href="rpg/" target="_blank"  class="a-dpe estatico nossos"><abbr title="Dragão do Poço Escuro">DPE</abbr></a>
-            <div class=desc>
-                <p><span class="categoria">Descrição:</span></p>
-            </div>
-            <div class=atribs>
-                <p><span class="categoria">Nome:</span> Dragão do poço Escuro</p>
-                <p><span class="categoria">Tipo de site:</span> Dinâmico</p>
-                <p><span class="categoria">Conteúdo:</span> Colaborativo</p>
-            </div>
-        </div>
-        <div class="quadro-site q-ap">  
-            <a href="ap/" target="_blank"  class="a-ap estatico nossos">Another Piece</a>
-            <div class=desc>
-                <p><span class="categoria">Descrição:</span></p>
-            </div>
-            <div class=atribs>
-                <p><span class="categoria">Nome:</span> Another Piece</p>
-                <p><span class="categoria">Tipo de site:</span> Estático</p>
-                <p><span class="categoria">Conteúdo:</span> Colaborativo</p>
-            </div>
-        </div>
-        <div class="quadro-site q-eng">  
-            <a href="enginelish/"  target="_blank"  class="a-eng estatico nossos">Enginelish</a>
-            <div class=desc>
-                <p><span class="categoria">Descrição:</span></p>
-            </div>
-            <div class=atribs>
-                <p><span class="categoria">Nome:</span> Enginelish</p>
-                <p><span class="categoria">Tipo de site:</span> Estático</p>
-                <p><span class="categoria">Conteúdo:</span> Colaborativo</p>
-            </div>
-        </div>
-        <div class="quadro-site q-sdb">      
-            <a href="sdb/" target="_blank" class="a-sdb dinamico deles"><abbr title="Loja Sonho de Beleza">Sonho de Beleza</abbr></a>
-            <div class=desc>
-                <p><span class="categoria">Descrição:</span> Loja Online</p>
-            </div>
-            <div class=atribs>
-                <p><span class="categoria">Nome:</span> Sonho de Beleza</p>
-                <p><span class="categoria">Tipo de site:</span> Dinâmico</p>
-                <p><span class="categoria">Conteúdo:</span> De terceiros</p>
-            </div>
-        </div>
-        <div class="quadro-site q-drl">  
-            <a href="renanlanes/" target="_blank" class="a-drl estatico deles">Dr Renan Lanes</a>
-            <div class=desc>
-                <p><span class="categoria">Descrição:</span></p>
-            </div>
-            <div class=atribs>
-                <p><span class="categoria">Nome:</span> Clínica de Olhos Dr Renan Lanes</p>
-                <p><span class="categoria">Tipo de site:</span> Estático</p>
-                <p><span class="categoria">Conteúdo:</span> De terceiros</p>
-            </div>
-        </div>
-        <div class="quadro-site q-rl">      
-            <a href="renanlacerda/" target="_blank" class="a-rl estatico deles">Renan Lacerda</a>
-            <div class=desc>
-                <p><span class="categoria">Descrição:</span></p>
-            </div>
-            <div class=atribs>
-                <p><span class="categoria">Nome:</span> Renan Lacerda Psicólogo</p>
-                <p><span class="categoria">Tipo de site:</span> Estático</p>
-                <p><span class="categoria">Conteúdo:</span> De terceiros</p>
-            </div>
-        </div>
-        <div class="quadro-site q-lia">  
-            <a href="liatris/" target="_blank" class="a-lia estatico deles">Liatris</a>
-            <div class=desc>
-                <p><span class="categoria">Descrição:</span></p>
-            </div>
-            <div class=atribs>
-                <p><span class="categoria">Nome:</span> Tributo a Liatris</p>
-                <p><span class="categoria">Tipo de site:</span> Estático</p>
-                <p><span class="categoria">Conteúdo:</span> De terceiros</p>
-            </div>
-        <div class="quadro-site">
-    </section>
-
-    <footer>
-        <p><div class="credito">Leon Lacerda &copy; Todos os direitos reservados.</span></p>
-    </footer>
-    <script>
-    	
-    </script>
+    <script src="dist/js/main.min.js"></script>
 </body>
 </html>
