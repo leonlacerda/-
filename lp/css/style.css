@@ -146,4 +146,17 @@ html, body {
 
     footer {
         height: 100px;
+        font-family: var(--fonte-opensans);
+        margin: auto;
+        text-align: center;
+        margin-top: 150px;
+        font-size: .8em;
+        font-weight:600;
+    }
+
+    footer a:hover {
+        color: var(--cor1);
+        background-color: var(--cor4);
+        border-radius: 15px;
+        padding: 0 15px;
     }
